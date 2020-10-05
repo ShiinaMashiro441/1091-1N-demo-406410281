@@ -1,3 +1,19 @@
+/*
+    JS basic method 
+
+    Begin with "function"
+
+    sytax: function method_name([args...]) {...}
+
+    Call one method by an event on html code.
+
+    Ex: onclick="changeVideo(1)"
+
+        onclick is an Event
+        called funciton name is chanegeVideo()
+        (1) is an Argument for this funciton
+ */
+
 function changeVideo(index) {
     const p = document.getElementById('player');
     console.log(p, "player");
