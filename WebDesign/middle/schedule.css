@@ -1,0 +1,12 @@
+table {
+  font-weight: bold;
+  text-align: center;
+  font-size: large;
+}
+
+table tbody tr .table-primary,
+table tbody tr .table-info,
+table tbody tr .table-success,
+table tbody tr .table-secondary {
+  color: black;
+}
