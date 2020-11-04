@@ -11,7 +11,7 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./resume.css" />
     <script src="./index.js"></script>
     <title>Resume</title>
   </head>
@@ -35,31 +35,8 @@
           <li class="nav-item active">
             <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Class Demo
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="./class_demo.html">W1: Introduction</a>
-              <a class="dropdown-item" href="./class_demo.html">W1: Pokemon</a>
-              <a class="dropdown-item" href="./class_demo.html">W2: Blog</a>
-              <a class="dropdown-item" href="./class_demo.html">W2: Image Gallery</a>
-              <a class="dropdown-item" href="./class_demo.html">W3: Basic Web div Demo</a>
-              <a class="dropdown-item" href="./class_demo.html">W3: TKU60 + RWD -1</a>
-              <a class="dropdown-item" href="./class_demo.html">W3: Div Practice for Display 3 col div</a>
-              <a class="dropdown-item" href="./class_demo.html">W4: TKU60 + RWD -2</a>
-              <a class="dropdown-item" href="./class_demo.html">W5: BootStrap Test NAV</a>
-              <a class="dropdown-item" href="./class_demo.html">W6: MS Page Clone - 1 with Font Awsome</a>
-              <a class="dropdown-item" href="./class_demo.html">W7: NAV JavaScript Test + MS Page Clone - 2</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="./class_demo.html">Class Demo</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./schedule.html">Schedule 109-1</a>
@@ -73,7 +50,167 @@
         </ul>
       </div>
     </nav>
-    <div class="container"></div>
+
+    <div class="container">
+      <div class="left">
+        <div class="card" style="width: 50rem">
+          <div class="card-body">
+            <h5 class="card-title">應徵職務</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Desired Position</h6>
+            <hr />
+            <p class="card-text">某個職務...</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 50rem">
+          <div class="card-body">
+            <h5 class="card-title">專長</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Summary of Skills</h6>
+            <hr />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div>
+                  <p class="index">項目</p>
+                  <p class="known">瞭解程度</p>
+                  <p class="frequency">頻率</p>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div>
+                  <p class="index">Java</p>
+                  <p class="known">熟悉</p>
+                  <p class="frequency">常用</p>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div>
+                  <p class="index">C/C++</p>
+                  <p class="known">普通</p>
+                  <p class="frequency">不常使用</p>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div>
+                  <p class="index">Python</p>
+                  <p class="known">普通</p>
+                  <p class="frequency">不常使用</p>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div>
+                  <p class="index">C#</p>
+                  <p class="known">普通</p>
+                  <p class="frequency">不常使用</p>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div>
+                  <p class="index">網頁前端</p>
+                  <p class="known">普通</p>
+                  <p class="frequency">不常使用</p>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div>
+                  <p class="index">Microsoft Office</p>
+                  <p class="known">熟悉</p>
+                  <p class="frequency">常用</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card" style="width: 50rem">
+          <div class="card-body">
+            <h5 class="card-title">專業認證</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Certification</h6>
+            <hr />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <ul class="inner-list">
+                  <li class="title">項次</li>
+                  <li class="title">證書名稱</li>
+                  <li class="title">認證單位</li>
+                  <li class="title">認證日期</li>
+                </ul>
+              </li>
+              <li class="list-group-item">
+                <ul class="inner-list">
+                  <li class="index">1</li>
+                  <li class="certification_name">Java SE7 Programmer, OCA</li>
+                  <li class="certificator">Oracle</li>
+                  <li class="certification_date">2018/09/16</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="card" style="width: 50rem">
+          <div class="card-body">
+            <h5 class="card-title">工作經驗</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Work Experience</h6>
+            <hr />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div>
+                  <p>單位</p>
+                  <p>日期</p>
+                  <p>職務/工作內容</p>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div>
+                  <p>淡江大學資訊處教學資源組</p>
+                  <p>2018/09 - 2019/01</p>
+                  <div style="display: inline">
+                    <p>工讀生</p>
+                    <p>維護、更新教職員電腦設備</p>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div>
+                  <p>神通資科助理工程師</p>
+                  <p>2020/08 - 2021/06</p>
+                  <div style="display: inline">
+                    <p>助理工程師</p>
+                    <p>系統測試、專案文件修改</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card" style="width: 50rem">
+          <div class="card-body">
+            <h5 class="card-title">學歷</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Education</h6>
+            <hr />
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div>
+                  <p class="index">學校</p>
+                  <p class="index">肄/畢業</p>
+                  <p class="known">日期</p>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div>
+                  <p class="index">淡江大學</p>
+                  <p class="index">修業中</p>
+                  <p class="known">2017/07 - 2021/06</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!--BootStrap Javascript-->
     <script

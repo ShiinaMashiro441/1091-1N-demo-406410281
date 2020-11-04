@@ -36,5 +36,8 @@ function change_iframe_display(val) {
     case 11:
       document.getElementById("inner_html").innerHTML = '<iframe src="./w7/nav.html"></iframe>';
       break;
+    case 12:
+      document.getElementById("inner_html").innerHTML = '<iframe src="./w8/index.html"></iframe>';
+      break;
   }
 }

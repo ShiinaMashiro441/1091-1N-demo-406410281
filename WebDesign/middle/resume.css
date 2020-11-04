@@ -1,0 +1,51 @@
+body {
+  background-color: rgba(101, 168, 245, 0.637);
+}
+
+nav {
+  margin-bottom: 2%;
+}
+
+.container {
+  display: flex;
+  padding: 5% 0;
+}
+
+.left {
+  position: absolute;
+  transform: translateX(-20rem);
+}
+
+.right {
+  transform: translateX(40rem);
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.list-group-item div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-list {
+  display: flex;
+}
+
+.inner-list .title {
+  list-style: none;
+  margin: 2px 5%;
+  padding: 0 20px;
+  position: relative;
+  transform: translateX(-25px);
+}
+
+.inner-list li.index,
+.inner-list li.certification_name,
+.inner-list li.certificator,
+.inner-list li.certification_date {
+  list-style-type: none;
+  padding: 2px 5%;
+  justify-content: space-around;
+}
