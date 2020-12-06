@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<hmtl>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>SCSS_test</title>
+  </head>
+  <body>
+    <div class="header">
+      <a href="./index.html" class="logo-container">
+        <img src="./assert/crown.svg" />
+      </a>
+      <div class="options">
+        <a href="./overview.html" class="option">Shop</a>
+        <a href="#" class="option">Contact</a>
+        <a href="#" class="option">Sign In</a>
+
+        <div class="cart-icon">
+          <img class="shopping-icon" onclick="cartToggle()" src="./assert/shopping-bag.svg" />
+        </div>
+        <div class="cart-dropdown">
+          <div class="cart-items">
+            <div class="cart-item">
+              <img src="https://i.ibb.co/ZYW3VTp/brown-brim.png" />
+              <div class="item-details">
+                <span class="name">Brown Brim</span>
+                <span class="price">4 * $25</span>
+              </div>
+            </div>
+            <div class="cart-item">
+              <img src="https://i.ibb.co/XzcwL5s/black-shearling.png" />
+              <div class="item-details">
+                <span class="name">Brown Brim</span>
+                <span class="price">4 * $125</span>
+              </div>
+            </div>
+            <div class="cart-item">
+              <img src="https://i.ibb.co/0s3pdnc/adidas-nmd.png" />
+              <div class="item-details">
+                <span class="name">Brown Brim</span>
+                <span class="price">4 * $220</span>
+              </div>
+            </div>
+            <div class="cart-item">
+              <img src="https://i.ibb.co/7CQVJNm/blue-tank.png" />
+              <div class="item-details">
+                <span class="name">Blue Tanktop</span>
+                <span class="price">4 * $25</span>
+              </div>
+            </div>
+            <div class="cart-item">
+              <img src="https://i.ibb.co/xJS0T3Y/camo-vest.png" />
+              <div class="item-details">
+                <span class="name">Camo Down Vest</span>
+                <span class="price">4 * $325</span>
+              </div>
+            </div>
+            <button class="custom-button">GO TO CHECKOUT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1>Overview</h1>
+
+    <script>
+      function cartToggle() {
+        p = document.querySelector(".cart-dropdown");
+        console.log("cart-dropdown", p.classList);
+        p.classList.toggle("show");
+      }
+    </script>
+  </body>
+</hmtl>
