@@ -1,0 +1,105 @@
+/*
+    將所有的標籤的 padding, margin = 0
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+    將網頁基底設定顏色，文字16px
+*/
+body {
+    background-color: bisque;
+    font-size: 16px;
+}
+
+#container {
+    width: 90%;
+    /* height: 100vh; */
+    border: 2px solid purple;
+    /*margin-top: 20px, auto：自動左右對齊*/
+    margin: 20px auto;
+}
+
+#heading {
+    width: 100%;
+    height: 100px;
+    background-color: darkcyan;
+    text-align: center;
+}
+
+#heading ul {
+    display: flex;
+    justify-content: center; /*置中對齊。*/
+    /*justify-content: space-between; /*平均分配所有元素，最左和最右邊的元素會貼齊左右兩邊。*/
+    /*justify-content: space-around; /*平均分配所有元素，與space-between相反，會多出空位。*/
+    margin-top: 25px;
+    padding-left: 20px;
+    
+}
+
+#heading li {
+    list-style-type: none;
+    padding: 0px 5px 10px 5px;   /*Up Right Down Left*/
+    font-size: 15px;
+}
+
+#heading ul li a {
+    background-color: darksalmon;
+    padding: 5px;
+}
+
+/*游標在超連結上時的動作*/
+#heading ul a:hover {
+    background-color: crimson;
+}
+
+#main {
+    display: flex;
+}
+
+#main ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#main ul li {
+    list-style: none;   /*讓list前面的點點不見*/
+    margin-top: 15px;
+    padding: 5%;
+}
+
+#main li a {
+    background-color: salmon;
+    padding: 5%;
+}
+
+#main li a:hover {
+    background-color: crimson;
+}
+
+#left {
+    width: 20%;
+    height: 400px;
+    background-color: darkturquoise;
+}
+
+#center {
+    width: 60%;
+    background-color: rgba(152,230,230,0.7);
+}
+
+#right {
+    width: 20%;
+    background-color: rgba(152, 230, 182, 0.7);
+}
+
+#footer {
+    width: 100%;
+    height: 70px;
+    background-color: darkgray;
+}

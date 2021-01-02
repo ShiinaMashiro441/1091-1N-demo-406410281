@@ -1,0 +1,51 @@
+@import "config";
+
+body {
+    background-color: $dark-mode-bg;
+    color: $dark-mode-text-color;
+    font-size: 20px;
+
+    * {
+        font-weight: bold;
+    }
+
+    * hr {
+        background: $dark-mode-text-color;
+    }
+}
+
+// for demo page
+iframe {
+    background-color: rgba(white, 0.5);
+}
+
+// for schedule page
+#table-head {
+    color: rgba($color: yellow, $alpha: 0.75);
+}
+
+table {
+    .table-primary {
+        background-color: rgba(55, 150, 255, 0.75);
+    }
+    .table-success {
+        background-color: rgba(92, 226, 122, 0.75);
+    }
+    .table-info {
+        background-color: rgba(86, 210, 224, 0.75);
+    }
+    .table-secondary {
+        background-color: rgba(208, 210, 215, 0.75);
+    }
+}
+
+// for resume page
+.card-body {
+    background-color: $dark-mode-card-bg;
+    color: gainsboro;
+
+    ul li {
+        background-color: $dark-mode-card-bg;
+        color: gainsboro;
+    }
+}

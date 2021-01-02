@@ -1,0 +1,10 @@
+body {
+    background-color: #111111;
+}
+
+.col-md-4 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGA7aCCTfMliz02Lc9zmoHHMImhJ1KhUGBQQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

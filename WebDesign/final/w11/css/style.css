@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 70px;
+  width: 100%;
+}
+
+.header .logo-container {
+  height: 100%;
+  width: 70px;
+  padding: 25px;
+}
+
+.header .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .options .option {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.header .options .cart-icon {
+  width: 45px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.header .options .shopping-icon {
+  margin-right: 15px;
+  width: 24px;
+  height: 24px;
+}
+
+.header .options .cart-dropdown {
+  position: absolute;
+  width: 240px;
+  height: 650px;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 60px;
+  right: 40px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.header .options .cart-dropdown.show {
+  display: block;
+}
+
+.header .options .cart-dropdown .cart-items {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: scroll;
+}
+
+.header .options .cart-dropdown .cart-items .cart-item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.header .options .cart-dropdown .cart-items .cart-item img {
+  width: 30%;
+}
+
+.header .options .cart-dropdown .cart-items .item-details {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 20px;
+}
+
+.header .options .cart-dropdown .cart-items .item-details .name {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.header .options .cart-dropdown .cart-items .item-details .price {
+  font-size: 18px;
+}
+
+.header .options .cart-dropdown .cart-items .custom-button {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  margin: 20px auto;
+}
+
+.header .options .cart-dropdown .cart-items .custom-button:hover {
+  background-color: aliceblue;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--參照的字元集-->
+    <meta charset="UTF-8"   />
+    <!--
+        viewport 視口，用來控制螢幕的寬度和縮放比例。
+        width=device-width：指定瀏覽器頁面的寬度與使用者的裝置同寬
+        initial-scale=1.0：指定畫面初始縮放比例為100%，也就是說不放大也不縮小
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--link：參照外部檔案-->
+    <link rel="stylesheet" href="./div_tku60.css" />
+    <!--title：瀏覽器標題-->
+    <title>div_tku60</title>
+</head>
+
+
+<!--body：網頁的整個主體-->
+<body>
+    <!--
+        div劃分網站的區塊，預設都是以垂直排列。
+        id：顧名思義，不得重複。CSS中，須以"#"來取得。
+        h2：二號標題。
+        ul、li：前者為無序排列的清單的外包標籤，後者為清單標籤。
+        a：超連結標籤。
+    -->
+    <div id=container>
+        <div id="heading">
+            <h2>Heading</h2>
+            <ul>
+                <li>
+                    <a href="#">Link1</a>
+                </li>
+                <li>
+                    <a href="#">Link2</a>
+                </li>
+                <li>
+                    <a href="#">Link3</a>
+                </li>
+            </ul>
+        </div>
+        <div id="main">
+            <aside>
+                <ul>
+                    <li>
+                        <a href="#">淡江大戲1</a>
+                    </li>
+                    <li>
+                        <a href="#">淡江大戲2</a>
+                    </li>
+                    <li>
+                        <a href="#">淡江大戲3</a>
+                    </li>
+                    <li>
+                        <a href="#">淡江大戲4</a>
+                    </li>
+                    <li>
+                        <a href="#">淡江大戲5</a>
+                    </li>
+                </ul>
+            </aside>
+            <div id="section">
+                <div class="video-responsive">
+                    <div id="player">
+                        <iframe width="560" height="315" 
+                                src="https://www.youtube.com/embed/RechrtUxfQc"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">Footer</div>
+    </div>
+</body>
+
+</html>

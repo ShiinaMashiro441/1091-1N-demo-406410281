@@ -1,0 +1,25 @@
+nav {
+  margin-bottom: 5%;
+}
+
+#section {
+  width: 80%;
+  height: auto;
+  background-color: rgba(152, 230, 230, 0.7);
+  padding: 2% 2% 2% 2%;
+}
+
+.html-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.html-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
