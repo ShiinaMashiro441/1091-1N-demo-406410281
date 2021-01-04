@@ -1,112 +1,119 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTH-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTH-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!--BootStrap CSS-->
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="./css/index.css" />
-        <link id="dark-theme" rel="stylesheet" href="./css/astyle.min.css" />
-        <script src="./js/basic.js"></script>
-        <title>Fianl Exam</title>
-    </head>
+    <!--BootStrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link id="dark-theme" rel="stylesheet" href="" />
 
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#" onclick="nothing()">Final Exam Project</a>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
+    <title>Fianl Exam</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#" onclick="nothing()"
+        >Final Exam Project</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html"
+              >Home <span class="sr-only">(current)</span></a
             >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./class_demo.html">Class Demo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./schedule.html">Schedule 109-1</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./resume.html">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./others.html">Others</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <a id="Theme" href="#" onclick="change_theme()">Change to Dark Theme</a>
-            </div>
-        </nav>
-        <div class="container">
-            <h1>說明</h1>
-            <h5>所有操作都是靠最上面的 NAV BAR。</h5>
-            <h5>當然，要用每個 Title 來跳轉也是可以。</h5>
-            <hr />
-            <div id="main">
-                <div id="left">
-                    <h1>各個標籤說明</h1>
-                    <h3><a href="#" onclick="nothing()">Final Exam Project</a></h3>
-                    <p>這個只是個Title，用來標示這個Project名稱。</p>
-                    <p>如果手癢點它的話，可能會有事情發生。</p>
-                    <hr />
-                    <br />
-                    <h3><a href="#">Home</a></h3>
-                    <p>這個Project中的第一個頁面，以及這個Project的使用說明。</p>
-                    <hr />
-                    <br />
-                    <h3><a href="./class_demo.html">Class Demo</a></h3>
-                    <p>為呈現w1-w8的DEMO。</p>
-                    <p>會先跳轉到Class_Demo.html，然後變成一個下拉式選單，再從中選擇每個DEMO。</p>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./class_demo.html">Class Demo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./schedule.html">Schedule 109-1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./others.html">Others</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <a id="Theme" href="#" onclick="change_theme()">Change to Dark Theme</a>
+      </div>
+    </nav>
+    <div class="container">
+      <h1>說明</h1>
+      <h5>所有操作都是靠最上面的 NAV BAR。</h5>
+      <h5>當然，要用每個 Title 來跳轉也是可以。</h5>
+      <hr />
+      <div id="main">
+        <div id="left">
+          <h1>各個標籤說明</h1>
+          <h3><a href="#" onclick="nothing()">Final Exam Project</a></h3>
+          <p>這個只是個Title，用來標示這個Project名稱。</p>
+          <p>如果手癢點它的話，可能會有事情發生。</p>
+          <hr />
+          <br />
+          <h3><a href="#">Home</a></h3>
+          <p>這個Project中的第一個頁面，以及這個Project的使用說明。</p>
+          <hr />
+          <br />
+          <h3><a href="./class_demo.html">Class Demo</a></h3>
+          <p>為呈現w1-w8的DEMO。</p>
+          <p>
+            會先跳轉到Class_Demo.html，然後變成一個下拉式選單，再從中選擇每個DEMO。
+          </p>
 
-                    <br />
-                </div>
-                <div id="right">
-                    <h3><a href="./schedule.html">Schedule 109-1</a></h3>
-                    <p>為這個學期的課表，有夠忙(OTZ。</p>
-                    <hr />
-                    <br />
-                    <h3><a href="./resume.html">Resume</a></h3>
-                    <p>為履歷表。</p>
-                    <hr />
-                    <br />
-                    <h3><a href="./others.html">Others</a></h3>
-                    <p>Project 甘苦談。</p>
-                </div>
-            </div>
+          <br />
         </div>
+        <div id="right">
+          <h3><a href="./schedule.html">Schedule 109-1</a></h3>
+          <p>為這個學期的課表，有夠忙(OTZ。</p>
+          <hr />
+          <br />
+          <h3><a href="./resume.html">Resume</a></h3>
+          <p>為履歷表。</p>
+          <hr />
+          <br />
+          <h3><a href="./others.html">Others</a></h3>
+          <p>Project 甘苦談。</p>
+        </div>
+      </div>
+    </div>
 
-        <!--BootStrap Javascript-->
-        <script
-            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+    <!--BootStrap Javascript-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/basic.js"></script>
+  </body>
 </html>
